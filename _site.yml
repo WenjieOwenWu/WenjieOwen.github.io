@@ -1,0 +1,16 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<w9932501@gmail.com>
+    - icon: fa-github fa-lg
+      href: https://github.com/WenjieOwenWu/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/wenjie-wu-26a0b7307/?trk=opento_sprofile_pfeditor
+output:
+  html_document:
+    theme: flatly

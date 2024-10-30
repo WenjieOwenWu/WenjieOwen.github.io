@@ -1,0 +1,101 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+# WENJIE WU
+
+## EDUCATION
+Columbia University                                                                                                       Sept 2024 – Jun 2026
+Master of Science in Biostatistics and Data Science
+
+Shanghai University	Sept 2020 – Jun 2024
+Bachelor of Engineering in Data Science and Big Data Technology   GPA: 3.6/4
+
+## PUBLICATION & HONOR
+Q. Liu, X. Wang, W. Wu and X. Zhu; Siamese Network with Feature Fusion for Visual Object Tracking; published in 2022 International Conference on Cloud Computing, Big Data Applications and Software Engineering (CBASE), Suzhou, China, 2022, pp. 295-299, DOI: 10.1109/CBASE57816.2022.00064
+S Price, 2023 Mathematical Contest of Modeling (MCM)
+
+## RESEARCH
+
+### Real-Time View Synthesis in Video Calls	Mar 2023
+College Students' Innovative Entrepreneurial Training Plan Program (National)
+Advisor: Yongfang Wang (Professor, Shanghai University)	
+•	Introduced depth information into the traditional human face synthesis algorithm; The accuracy was improved by 3% compared to traditional rendering-based methods
+
+•	Improved human face synthesis effect and the processing speed by utilizing the depth information, making it possible to put this technology into real-time applications
+
+•	Read relevant papers and reproduced the algorithms “SinNeRF: Training Neural Radiance Fields on Complex Scenes from a Single Image”
+
+### Research on Monocular Depth Estimation	Jul 2022
+Shanghai University Brilliant Student Research Program
+Advisor: Yongfang Wang (Professor, Shanghai University)	
+•	Read research papers on target detection and monocular depth estimation
+
+•	Improved the accuracy of “From Big to Small: Multi-Scale Local Planar Guidance for Monocular Depth Estimation” by incorporating conditional random fields
+
+### Machine Learning Essentials Online Research Seminar	Mar 2022 – May 2022
+Advisor: Shlomo Ta’Asan (Professor Emeritus of Mathematical Science, Carnegie Mellon University)	
+•	Studied and investigated the main methods and current research directions in machine learning; analyzed and compared different ML algorithms, including supervised machine learning, classification and regression models, unsupervised machine learning, clustering and dimension reduction, as well as deep learning and neural networks
+
+•	Improved the model's target tracking accuracy when the object's appearance changes by weighting and summing the features extracted from the Siamese-RPN model; Published a paper
+
+•	Achieved an accuracy of 61.56% with the improved Siamese-RPN model
+
+•	Compared the performance of SVM+HOG, YOLO V3, and Faster RCNN for vehicle tracking in the group's defense pre
+
+## INTERNSHIPS
+
+### ByteDance (TikTok)	Jun 2023-Feb 2024
+Position: Big Data Intern at the Finance Department	
+•	Utilized operational team data and internal models to predict asset scale, applying time series models such as LSTM. Achieved prediction accuracy with an error margin below 10%, through comparison with risk control team forecasts. 
+
+•	Collected, integrated, and analyzed loan asset data at the daily level. Collaborated with the data warehouse team through regular meetings to reconcile differences and identify bugs in the warehouse data, improving data accuracy.
+
+•	Applied OCR technology to process user information, successfully resolving a customer dispute that helped mitigate the risk of operational downgrade for the institution.
+
+•	Communicate with various institutions on system interfaces, data reconciliation, customer complaints, and other related issues.
+
+### Ernst & Young Hua Ming LLP	Jan 2023-Feb 2023
+Position: Intern, Assurance Dept.	
+•	Developed reusable Python toolkits to streamline material integration, resulting in an early completion of audit tasks and improved team efficiency.
+
+•	Collected real estate-related data required for audit investigations through web scraping and automated classification and analysis, accelerating this process by 50% compared to previous methods.
+
+•	Participated in annual audit projects for large corporations, performing document sampling and preparing working papers.
+
+### China UnionPay Data Service Co.	Jul 2022-Aug 2022
+Position: Intern, Innovation Product Dept.	
+•	Upgraded the SQL framework; Upgraded HBASE+TRAFODION to HIVE+SPARK; Modified the framework scripts according to the Pyspark API; wrote scripts for backend scheduling and SMS monitoring and ran batch tests
+
+•	Prepared training materials for the company's weekly meeting; reproduced some SQL functions with Python
+
+## PROJECTS
+Natural Language Processing Course Project - Auto Summary	Oct 2022-Nov 2022
+•	Implemented automated summarization for the LCSTS dataset using extractive summarization
+
+•	Implemented generative summarization using the Seq2Seq Model in Deep Learning; Added a hidden layer to the RNN network in the Bart model, improving its training efficiency.	
+
+Computer Vision Course Project – Target Recognition	Oct 2022-Nov 2022
+Role: Team Leader	
+
+•	Applied the Resnet18 network in target recognition and improved the network according to the characteristics of the CIFAR-10 dataset; Achieved a model accuracy of 95.47%
+
+•	Produced a new dataset for recognizing human abnormal behaviors and identifying whether a person is smoking or talking on the phone; Applied target recognition algorithms in addressing real-world demands; Achieved an accuracy rate of 78.65%
+
+## ACTIVITIES
+Basketball Association, Shanghai University	Sep 2020-Jan 2022
+Position: Core Member; 5hrs/w
+
+•	Organized several major basketball events; Assisted in field services and desk work
+
+•	Wrote news articles to report and advertise the events
+
+## SKILLS
+Programming: Python, SQL, R, SAS, MATLAB, C, C++
+Sports: Basketball, Badminton, Fitness
+Hobbies: Wei qi Grade 10, Harmonica
+
+

@@ -1,0 +1,83 @@
+---
+title: "Owen's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is my personal information
+
+[About me](about.html)
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+# Problem 2
+
+-----------------------------------------------------------------------
+
+### Chart A
+```{r echo=FALSE}
+data(ny_noaa)
+
+ny_noaa_2007 = ny_noaa |>
+  mutate(year = substr(date, 1, 4)) |>
+  filter(year %in% c(2007))
+
+ny_noaa_2007 |>
+  mutate(month = substr(date, 6, 7)) |>
+  plot_ly(x = ~month, y = ~prcp, type = 'scatter', mode = "markers") |>
+  layout(title = "Monthly Precipitation in 2007",
+         xaxis = list(title = "Month"),
+         yaxis = list(title = "Precipitation (mm)"))
+
+```
+
+-----------------------------------------------------------------------
+
+### Chart B
+```{r echo=FALSE}
+ny_noaa |>
+  mutate(year = substr(date, 1, 4)) |>
+  filter(year == "2004" & !is.na(tmax) & !is.na(tmin)) |>
+  mutate(month = substr(date, 6, 7)) |> 
+  group_by(month) |>
+  mutate(tmax = as.numeric(tmax), 
+         tmin = as.numeric(tmin)) |>
+  summarize(mean_tmax = mean(tmax, na.rm = TRUE), 
+            mean_tmin = mean(tmin, na.rm = TRUE)) |>
+ plot_ly(x = ~month) |>
+  add_lines(y = ~mean_tmax, name = 'Max Temperature', line = list(color = 'red')) |>
+  add_lines(y = ~mean_tmin, name = 'Min Temperature', line = list(color = 'blue')) |>
+  layout(title = "Average Monthly Max and Min Temperatures in 2004",
+         xaxis = list(title = "Month"),
+         yaxis = list(title = "Temperature (°C)"))
+
+
+```
+
+
+
+-----------------------------------------------------------------------
+
+### Chart C
+```{r echo=FALSE}
+ny_noaa |>
+  mutate(date = as.Date(date, format = "%Y/%m/%d")) |>
+  mutate(year = substr(date, 1, 4)) |>
+  filter(!is.na(snow)) |>
+  group_by(year) |>
+  summarize(mean_snow = mean(snow, na.rm = TRUE)) |>
+  plot_ly(x = ~as.numeric(year), y = ~mean_snow, type = 'bar', 
+        marker = list(color = 'skyblue')) |>
+  layout(title = "Average Yearly Snowfall",
+         xaxis = list(title = "Year"),
+         yaxis = list(title = "Average Snowfall (mm)"))
+```
+
