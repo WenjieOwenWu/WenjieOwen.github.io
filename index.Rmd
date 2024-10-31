@@ -8,13 +8,15 @@ output:
 
 # This is my personal information
 
+My name is Wenjie Wu, a graduate student major in Biostatistics with a concentration in Data Science. Feel free to reach out to me and get information from my website.
+
  You can check my resume by clicking --> [About me](about.html) or the `About` button on the navbar.
  
  My email, github website and linkedin website are also available on the navbar.
 
-And here's my cat: Akita
+And here's my cat: Tao
 
-![](images/aki.jpg)
+![](images/IMG_Tao.JPG)
 
 # Dashboards
 For the dashboard, you can check them by clicking the `cloud` button on the left side of the navbar.
