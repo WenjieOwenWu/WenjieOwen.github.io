@@ -2,6 +2,9 @@ name: "Yay internet!"
 output_dir: "."
 navbar:
   title: "Home"
+  left:
+    - icon: fa-cloud fa-lg
+      href: dashboard.html
   right:
     - text: "About"
       href: about.html
