@@ -16,7 +16,8 @@ My name is Wenjie Wu, a graduate student major in Biostatistics with a concentra
 
 And here's my cat: Tao
 
-![](images/IMG_Tao.JPG)
+<img src="images/IMG_Tao.JPG" style="width:75%">
+
 
 # Dashboards
 For the dashboard, you can check them by clicking the `cloud` button on the left side of the navbar.
